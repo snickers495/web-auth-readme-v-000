@@ -2,6 +2,7 @@ class SearchesController < ApplicationController
   def search
   end
 
+
   def foursquare
 
     client_id = ENV['FOURSQUARE_CLIENT_ID']
